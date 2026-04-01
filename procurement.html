@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Procurement — TechNova Electronics</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="home.html">TechNova Electronics</a>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="feedback.html">Feedback</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="procurement.html" class="active">Procurement</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h1 class="page-title">Product Order</h1>
+    <p>Fill in the form below to place a procurement request. All fields are required.</p>
+    <section class="form-section">
+      <form id="procurement-form" action="#" method="post" novalidate>
+        <div class="form-group">
+          <label for="proc-name">Name</label>
+          <input type="text" id="proc-name" name="name" autocomplete="name">
+        </div>
+        <div class="form-group">
+          <label for="proc-phone">Phone number</label>
+          <input type="tel" id="proc-phone" name="phone" maxlength="10" inputmode="numeric" autocomplete="tel">
+        </div>
+        <div class="form-group">
+          <label for="proc-email">Email</label>
+          <input type="email" id="proc-email" name="email" autocomplete="email">
+        </div>
+        <div class="form-group">
+          <label for="proc-address">Address</label>
+          <textarea id="proc-address" name="address" rows="3"></textarea>
+        </div>
+        <div class="form-group">
+          <label for="proc-product">Product</label>
+          <select id="proc-product" name="product">
+            <option value="">— Select a product —</option>
+            <option value="laptop">Laptop — ₹50,000</option>
+            <option value="headphones">Wireless Headphones — ₹7,999</option>
+            <option value="keyboard">Mechanical Keyboard — ₹4,500</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="proc-quantity">Quantity</label>
+          <input type="number" id="proc-quantity" name="quantity" min="1" step="1">
+        </div>
+        <div class="form-actions">
+          <button type="submit" class="btn-primary">Submit</button>
+        </div>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p><strong>TechNova Electronics</strong></p>
+    <p>&copy; 2026 TechNova Electronics. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
