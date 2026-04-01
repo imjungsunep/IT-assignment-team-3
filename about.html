@@ -6,7 +6,7 @@
   <title>About Us — TechNova Electronics</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="about-page">
   <header class="site-header">
     <a class="logo" href="home.html">TechNova Electronics</a>
   </header>
@@ -21,47 +21,181 @@
     </ul>
   </nav>
   <main>
-    <h1 class="page-title">About TechNova Electronics</h1>
-    <section class="about-block">
+    <h1 class="page-title reveal">About TechNova Electronics</h1>
+
+    <section class="about-block about-section reveal">
       <h2>Company History</h2>
-      <p>
-        TechNova Electronics began in 2018 as a small campus-focused retailer of laptops and accessories.
-        Over the years we expanded our catalog to include audio gear, peripherals, and smart devices while
-        keeping student-friendly prices and honest advice at the center of what we do.
-      </p>
+      <p class="muted-text">Key milestones in our journey from a small storefront to a trusted partner across India.</p>
+      <div class="timeline-horizontal" role="list">
+        <div class="timeline-step" role="listitem">
+          <span class="timeline-dot" aria-hidden="true"></span>
+          <span class="timeline-year">2018</span>
+          <p class="timeline-text">Founded as a student-focused electronics retailer</p>
+        </div>
+        <div class="timeline-step" role="listitem">
+          <span class="timeline-dot" aria-hidden="true"></span>
+          <span class="timeline-year">2020</span>
+          <p class="timeline-text">Expanded institutional procurement services</p>
+        </div>
+        <div class="timeline-step" role="listitem">
+          <span class="timeline-dot" aria-hidden="true"></span>
+          <span class="timeline-year">2022</span>
+          <p class="timeline-text">Introduced lifecycle consultation support</p>
+        </div>
+        <div class="timeline-step" role="listitem">
+          <span class="timeline-dot" aria-hidden="true"></span>
+          <span class="timeline-year">2024</span>
+          <p class="timeline-text">Delivered 20K+ products nationwide</p>
+        </div>
+        <div class="timeline-step" role="listitem">
+          <span class="timeline-dot" aria-hidden="true"></span>
+          <span class="timeline-year">2026</span>
+          <p class="timeline-text">Supporting education &amp; SMEs across India</p>
+        </div>
+      </div>
     </section>
-    <section class="about-block">
+
+    <section class="about-block about-section reveal">
       <h2>Mission &amp; Vision</h2>
-      <p><strong>Mission:</strong> To make reliable technology accessible through clear information, fair pricing,
-        and responsive support.</p>
-      <p><strong>Vision:</strong> To become the region’s most trusted electronics partner for education and
-        small business, known for integrity and lasting customer relationships.</p>
+      <div class="mv-grid">
+        <article class="mv-card">
+          <h3>Mission</h3>
+          <p>Deliver reliable technology with transparent pricing, expert guidance, and post-purchase support customers can trust.</p>
+        </article>
+        <article class="mv-card">
+          <h3>Vision</h3>
+          <p>Become the most trusted technology partner for education and growing businesses by combining innovation with service excellence.</p>
+        </article>
+      </div>
     </section>
-    <section class="about-block">
+
+    <section class="about-block about-section reveal">
       <h2>Services Offered</h2>
-      <ul>
-        <li>Retail sales of laptops, accessories, and peripherals</li>
-        <li>Procurement and bulk orders for institutions</li>
-        <li>Product consultation and after-sales guidance</li>
-        <li>Warranty coordination with manufacturers</li>
-      </ul>
+      <p class="muted-text">End-to-end support for individuals, campuses, and institutions.</p>
+      <div class="services-grid">
+        <article class="service-card">
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="4" width="20" height="14" rx="2"/><path d="M8 22h8M12 18v4"/></svg>
+          </div>
+          <h3>Retail &amp; accessories</h3>
+          <p>Laptops, peripherals, and smart devices with honest recommendations.</p>
+        </article>
+        <article class="service-card">
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-4"/><path d="M9 9v3M9 12v3"/></svg>
+          </div>
+          <h3>Institutional procurement</h3>
+          <p>Bulk orders, lab setups, and recurring supply for schools and offices.</p>
+        </article>
+        <article class="service-card">
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 15a4 4 0 01-4 4H8l-4 4V7a4 4 0 014-4h9a4 4 0 014 4z"/><path d="M13 8h.01M17 8h.01M9 12h.01"/></svg>
+          </div>
+          <h3>Consultation</h3>
+          <p>Product selection, setup guidance, and lifecycle planning.</p>
+        </article>
+        <article class="service-card">
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h3>Warranty &amp; support</h3>
+          <p>Warranty coordination and responsive after-sales assistance.</p>
+        </article>
+      </div>
     </section>
-    <section class="about-block">
+
+    <section class="about-block about-section about-why reveal">
+      <h2>Why Choose TechNova?</h2>
+      <p class="muted-text">What sets us apart in a crowded market.</p>
+      <div class="why-grid">
+        <article class="why-card">
+          <div class="why-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/><circle cx="12" cy="12" r="3"/></svg>
+          </div>
+          <h3>Transparent pricing</h3>
+          <p>Clear quotes without hidden fees—know what you pay before you commit.</p>
+        </article>
+        <article class="why-card">
+          <div class="why-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5"/></svg>
+          </div>
+          <h3>Student-friendly guidance</h3>
+          <p>Advice tailored to budgets, courses, and real classroom needs.</p>
+        </article>
+        <article class="why-card">
+          <div class="why-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg>
+          </div>
+          <h3>Institutional partnerships</h3>
+          <p>Trusted by colleges and SMEs for scalable, reliable supply.</p>
+        </article>
+        <article class="why-card">
+          <div class="why-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+          </div>
+          <h3>Reliable after-sales support</h3>
+          <p>We stay reachable after delivery—warranty help and follow-ups included.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="about-impact" class="about-block about-section reveal">
+      <h2>Our Impact</h2>
+      <p class="muted-text">Numbers that reflect our commitment to customers.</p>
+      <div class="kpi-grid">
+        <div class="kpi-box">
+          <h3 class="kpi-number"><span class="js-counter" data-target="20" data-suffix="K+">0</span></h3>
+          <p>Products delivered</p>
+        </div>
+        <div class="kpi-box">
+          <h3 class="kpi-number"><span class="js-counter" data-target="500" data-suffix="+">0</span></h3>
+          <p>Institutional orders</p>
+        </div>
+        <div class="kpi-box">
+          <h3 class="kpi-number"><span class="js-counter" data-target="4.8" data-suffix="/5" data-decimals="1">0</span></h3>
+          <p>Average customer rating</p>
+        </div>
+        <div class="kpi-box">
+          <h3 class="kpi-number"><span class="js-counter" data-target="7" data-suffix=" Days">0</span></h3>
+          <p>Support availability</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-block about-section reveal">
       <h2>Our Team</h2>
-      <p>Meet a few of the people behind TechNova (placeholder photos).</p>
+      <p class="muted-text">Meet a few of the people behind TechNova (placeholder photos).</p>
       <div class="team-grid">
         <div class="team-member">
-          <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&q=80" alt="Team member placeholder">
+          <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&q=80" alt="Alex Kumar">
           <p><strong>Alex Kumar</strong><br>Operations Lead</p>
+          <a href="https://www.linkedin.com/" class="team-linkedin" target="_blank" rel="noopener noreferrer" aria-label="Alex Kumar on LinkedIn">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5C4.98 4.88 3.86 6 2.49 6S0 4.88 0 3.5 1.12 1 2.49 1s2.49 1.12 2.49 2.5zM.5 8h4V24h-4V8zm7.5 0h3.8v2.2h.05c.53-1 1.84-2.2 3.79-2.2C20.3 8 22 10.1 22 13.3V24h-4v-9.2c0-2.2-.04-5-3.05-5-3.05 0-3.52 2.38-3.52 4.83V24h-4V8z"/></svg>
+          </a>
         </div>
         <div class="team-member">
-          <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80" alt="Team member placeholder">
+          <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80" alt="Priya Sharma">
           <p><strong>Priya Sharma</strong><br>Customer Success</p>
+          <a href="https://www.linkedin.com/" class="team-linkedin" target="_blank" rel="noopener noreferrer" aria-label="Priya Sharma on LinkedIn">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5C4.98 4.88 3.86 6 2.49 6S0 4.88 0 3.5 1.12 1 2.49 1s2.49 1.12 2.49 2.5zM.5 8h4V24h-4V8zm7.5 0h3.8v2.2h.05c.53-1 1.84-2.2 3.79-2.2C20.3 8 22 10.1 22 13.3V24h-4v-9.2c0-2.2-.04-5-3.05-5-3.05 0-3.52 2.38-3.52 4.83V24h-4V8z"/></svg>
+          </a>
         </div>
         <div class="team-member">
-          <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80" alt="Team member placeholder">
+          <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80" alt="James Patel">
           <p><strong>James Patel</strong><br>Technical Advisor</p>
+          <a href="https://www.linkedin.com/" class="team-linkedin" target="_blank" rel="noopener noreferrer" aria-label="James Patel on LinkedIn">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5C4.98 4.88 3.86 6 2.49 6S0 4.88 0 3.5 1.12 1 2.49 1s2.49 1.12 2.49 2.5zM.5 8h4V24h-4V8zm7.5 0h3.8v2.2h.05c.53-1 1.84-2.2 3.79-2.2C20.3 8 22 10.1 22 13.3V24h-4v-9.2c0-2.2-.04-5-3.05-5-3.05 0-3.52 2.38-3.52 4.83V24h-4V8z"/></svg>
+          </a>
         </div>
+      </div>
+    </section>
+
+    <section class="about-cta reveal" aria-labelledby="about-cta-title">
+      <h2 id="about-cta-title">Need help choosing the right device?</h2>
+      <p class="about-cta-lead">Talk to our team for product advice or a tailored procurement quote.</p>
+      <div class="about-cta-buttons">
+        <a href="contact.html" class="btn btn-primary">Contact Us</a>
+        <a href="procurement.html" class="btn btn-outline about-cta-outline">Request Procurement Quote</a>
       </div>
     </section>
   </main>
