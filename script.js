@@ -93,8 +93,7 @@ function validateProcurementForm(event) {
     return false;
   }
 
-  alert("Order submitted successfully! (Demo — no data was sent.)");
-  form.reset();
+  window.location.href = "procurement-success.html";
   return true;
 }
 
